@@ -30,7 +30,10 @@
 
 
 
-Ссылки на сторонние библиотеки
-bcrypt: Библиотека для хеширования паролей. https://www.npmjs.com/package/bcrypt
-express-session: Middleware для управления сессиями в приложениях Express. https://www.npmjs.com/package/express-session
-Bootstrap: CSS-фреймворк для создания адаптивных и стильных интерфейсов. https://getbootstrap.com/
+**Ссылки на сторонние библиотеки**:
+
+**bcrypt**: Библиотека для хеширования паролей. https://www.npmjs.com/package/bcrypt
+
+**express-session**: Middleware для управления сессиями в приложениях Express. https://www.npmjs.com/package/express-session
+
+**Bootstrap**: CSS-фреймворк для создания адаптивных и стильных интерфейсов. https://getbootstrap.com/
