@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Список статей</title>
+</head>
+<body>
+<div class="container">
+    <h1>Список статей</h1>
+    <% articles.forEach(article => { %>
+        <div class="article">
+            <h2><%= article.title %></h2>
+            <p><%= article.content %></p>
+        </div>
+    <% }) %>
+
+    <div class="pagination">
+        <a href="/articles?page=<%= page - 1 %>">Предыдущая страница</a>
+        <a href="/articles?page=<%= page + 1 %>">Следующая страница</a>
+    </div>
+</div>
+</body>
+</html>
